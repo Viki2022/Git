@@ -75,8 +75,7 @@ git push
 add file —> create new file
 
  14. Сделать Commit changes (сохранить) изменения на веб интерфейсе:  
-
-“add bug_report.json”—> commit new file 
+“add bug_report.json” —> commit new file 
 
  15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON: 
 bug_report.json —> Edit this file
@@ -87,8 +86,8 @@ bug_report.json —> Edit this file
 		                [
 		                 "a. Filled out contact form",
 		                 "b. Clicked on submit",
-                                             “c. form loaded a while”,
-                                             “d. contact form showed “<empty>”
+                                 “c. form loaded a while”,
+                                 “d. contact form showed “<empty>”
 		                ],
     "actual_results": “<empty>”,
     "expected_results": "Thank you for contacting us, we will get in touch shortly",
@@ -99,7 +98,6 @@ bug_report.json —> Edit this file
 “edit file bug_report.json”—> commit changes 
 
  17. Синхронизировать внешний и локальный репозиторий JSON:
-
  git fetch —> git pull
 
 XML
@@ -109,7 +107,7 @@ Repositories -> New -> Create repository
 
 2.	Клонировать репозиторий XML на локальный компьютер: 
 XML -> Code -> Copied 
-cd QA/Git -> git clone git@github.com:Viki2022/ XML.git 
+cd QA/Git -> git clone git@github.com:Viki2022/XML.git 
 
 3.	Внутри локального XML создать файл “new.xml”: 
 touch new.xml
@@ -129,7 +127,7 @@ cat >> new.xml
                           <full_name>Vika Bakumava</full_name>
                           <age>37</age>
                           <number of pets>2</number of pets>
-                          <future_salary, USD> 1000</future_salary, USD>
+                          <future_salary, USD>1000</future_salary, USD>
 </information>      
 
  8. Отправить изменения на внешний репозиторий:
@@ -153,8 +151,7 @@ cat >> preferences.xml
  11. Создать файл sklls.xml, добавить информацию о скилах, которые будут изучены на курсе в формате XML:
 cat > sklls.xml 
 <xml>
-           <skills> Terminal, JSON, XML, API, Postman, Fidler, Dev Tools, SQL, Git, Jmeter, Scrum, 
-           JavaScript</skills>
+     <skills> Terminal, JSON, XML, API, Postman, Fidler, Dev Tools, SQL, Git, Jmeter, Scrum, JavaScript</skills>
 </xml>
 
   12. Сделать коммит в одну строку: 
@@ -166,9 +163,7 @@ git push
 14. На веб интерфейсе создать файл bug_report.xml: 
 add file —> create new file
 
- 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе:  
-
-“add bug_report.xml”—> commit new file
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе:  “add bug_report.xml” —> commit new file
 
  16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате JSON: 
 bug_report.xml —> Edit this file
@@ -184,10 +179,9 @@ bug_report.xml —> Edit this file
 </report>
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе: 
-“edit file bug_report.xml”—> commit changes
+“edit file bug_report.xml” —> commit changes
 
  18. Синхронизировать внешний и локальный репозиторий JSON:
-
  git fetch —> git pull
  
 
@@ -198,7 +192,7 @@ Repositories -> New -> Create repository
  
 2.	Клонировать репозиторий TXT на локальный компьютер: 
 TXT -> Code -> Copied
-cd QA/Git -> git clone git@github.com:Viki2022/ TXT.git 
+cd QA/Git -> git clone git@github.com:Viki2022/TXT.git 
 
 3.	Внутри локального TXT создать файл “new.txt”: 
 touch new.txt
@@ -249,7 +243,7 @@ git push
 add file —> create new file
 
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
-“add bug_report.txt”—> commit new file
+“add bug_report.txt” —> commit new file
 
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
 bug_report.txt —> Edit this file
@@ -265,8 +259,8 @@ bug_report.txt —> Edit this file
     severity: Critical
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-“edit file bug_report.txt”—> commit changes
+“edit file bug_report.txt” —> commit changes
 
  18. Синхронизировать внешний и локальный репозиторий TXT: 
-git fetch —
+git fetch —> git pull
 
